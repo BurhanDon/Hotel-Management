@@ -82,7 +82,48 @@ const HotelBookingDetailsCard = ({ hotelCode }) => {
     setSelectedRooms(selectedOption);
     calculatePrices();
   };
+  // New states for additional inputs
+  const [roomStatus, setRoomStatus] = useState({
+    value: 'Available',
+    label: 'Available',
+  });
+  const [additionalServices, setAdditionalServices] = useState([]);
+  const [foodOption, setFoodOption] = useState({
+    value: 'Breakfast',
+    label: 'Breakfast',
+  });
 
+  // Options for new dropdowns
+  const roomStatusOptions = [
+    { value: 'Available', label: 'Available' },
+    { value: 'Occupied', label: 'Occupied' },
+    { value: 'Maintenance', label: 'Maintenance' },
+  ];
+
+  const additionalServicesOptions = [
+    { value: 'Room Service', label: 'Room Service' },
+    { value: 'Wake-Up Call', label: 'Wake-Up Call' },
+    { value: 'Transportation', label: 'Transportation' },
+    { value: 'Laundry', label: 'Laundry' },
+  ];
+
+  const foodOptions = [
+    { value: 'Breakfast', label: 'Breakfast' },
+    { value: 'Lunch', label: 'Lunch' },
+  ];
+
+  // Handlers for the new dropdowns
+  const handleRoomStatusChange = (selectedOption) => {
+    setRoomStatus(selectedOption);
+  };
+
+  const handleAdditionalServicesChange = (selectedOptions) => {
+    setAdditionalServices(selectedOptions);
+  };
+
+  const handleFoodOptionChange = (selectedOption) => {
+    setFoodOption(selectedOption);
+  };
   // Handler for date picker visibility toggle
   const onDatePickerIconClick = () => {
     setisDatePickerVisible(!isDatePickerVisible);
@@ -252,6 +293,32 @@ const HotelBookingDetailsCard = ({ hotelCode }) => {
             dismissError={dismissError}
           />
         )}
+
+        <div className="mb-4">
+          <div className="font-semibold text-gray-800">Room Status</div>
+          <Select
+            value={roomStatus}
+            onChange={handleRoomStatusChange}
+            options={roomStatusOptions}
+          />
+        </div>
+        <div className="mb-4">
+          <div className="font-semibold text-gray-800">Additional Services</div>
+          <Select
+            isMulti
+            value={additionalServices}
+            onChange={handleAdditionalServicesChange}
+            options={additionalServicesOptions}
+          />
+        </div>
+        <div className="mb-4">
+          <div className="font-semibold text-gray-800">Food Options</div>
+          <Select
+            value={foodOption}
+            onChange={handleFoodOptionChange}
+            options={foodOptions}
+          />
+        </div>
       </div>
       <div className="px-6 py-4 bg-gray-50">
         <button

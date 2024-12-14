@@ -65,6 +65,12 @@ export function makeServer({ environment = 'development' } = {}) {
                   country: loggedInUser.country,
                   isPhoneVerified: loggedInUser.isPhoneVerified,
                   isEmailVerified: loggedInUser.isEmailVerified,
+                  // Added new properties
+                  role: loggedInUser.role || 'Guest', // Defaults to 'Guest' if role is not defined
+                  staffCategory:
+                    loggedInUser.role === 'Staff'
+                      ? loggedInUser.staffCategory
+                      : null, // Only include staffCategory if role is 'Staff'
                 },
               },
             }

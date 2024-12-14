@@ -6,6 +6,7 @@ import UserProfile from './routes/user-profile/UserProfile';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import Home from './routes/home/Home';
+import Complaints from './routes/Complaint/Complaints';
 import { AuthProvider } from './contexts/AuthContext';
 import { makeServer } from './mirage/mirageServer';
 import HotelDetails from './routes/hotel-details/HotelDetails';
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <Register />,
+      },
+      {
+        path: '/complaints',
+        element: <Complaints />,
       },
       {
         path: '/hotel/:hotelId',
