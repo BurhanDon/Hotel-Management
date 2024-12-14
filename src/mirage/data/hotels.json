@@ -4,27 +4,27 @@
     "images": [
       {
         "imageUrl": "/images/hotels/481481762/481481762.jpg",
-        "accessibleText": "hyatt pune hotel"
+        "accessibleText": "hyatt hotel"
       },
       {
         "imageUrl": "/images/hotels/481481762/525626081.jpg",
-        "accessibleText": "hyatt pune hotel"
+        "accessibleText": "hyatt hotel"
       },
       {
         "imageUrl": "/images/hotels/481481762/525626095.jpg",
-        "accessibleText": "hyatt pune hotel"
+        "accessibleText": "hyatt hotel"
       },
       {
         "imageUrl": "/images/hotels/481481762/525626104.jpg",
-        "accessibleText": "hyatt pune hotel"
+        "accessibleText": "hyatt hotel"
       },
       {
         "imageUrl": "/images/hotels/481481762/525626212.jpg",
-        "accessibleText": "hyatt pune hotel"
+        "accessibleText": "hyatt hotel"
       }
     ],
-    "title": "Hyatt Pune",
-    "subtitle": "Kalyani Nagar, Pune | 3.3 kms from city center",
+    "title": "Hyatt ",
+    "subtitle": "Luxurious and comfortable room",
     "benefits": [
       "Free cancellation",
       "No prepayment needed – pay at the property"
@@ -37,42 +37,42 @@
         {
           "reviewerName": "Rahul Patel",
           "rating": 5,
-          "review": "The hotel is very good and the staff is very friendly. The food is also very good.",
+          "review": "The room is very good and the staff is very friendly. The food is also very good.",
           "date": "Date of stay: 2021-01-01",
           "verified": true
         },
         {
           "reviewerName": "Sara Johnson",
           "rating": 4,
-          "review": "Great hotel with excellent service. The rooms are spacious and clean. The staff went above and beyond to ensure a comfortable stay. Highly recommended!",
+          "review": "Great room with excellent service. The rooms are spacious and clean. The staff went above and beyond to ensure a comfortable stay. Highly recommended!",
           "date": "Date of stay: 2021-02-15",
           "verified": false
         },
         {
           "reviewerName": "John Smith",
           "rating": 3,
-          "review": "Average hotel. The staff could be more attentive.",
+          "review": "Average room. The staff could be more attentive.",
           "date": "Date of stay: 2021-03-10",
           "verified": true
         },
         {
           "reviewerName": "Emily Davis",
           "rating": 5,
-          "review": "Amazing experience! The hotel exceeded my expectations.",
+          "review": "Amazing experience! The room exceeded my expectations.",
           "date": "Date of stay: 2021-04-20",
           "verified": false
         },
         {
           "reviewerName": "David Wilson",
           "rating": 1,
-          "review": "Terrible experience. The hotel was dirty and the staff was rude.",
+          "review": "Terrible experience. The room was dirty and the staff was rude.",
           "date": "Date of stay: 2021-05-05",
           "verified": true
         },
         {
           "reviewerName": "Jessica Thompson",
           "rating": 4,
-          "review": "Lovely hotel with a great location. The staff was friendly and helpful.",
+          "review": "Lovely room with a great location. The staff was friendly and helpful.",
           "date": "Date of stay: 2021-06-12",
           "verified": false
         },
@@ -93,49 +93,49 @@
         {
           "reviewerName": "Daniel Johnson",
           "rating": 3,
-          "review": "Decent hotel with average facilities. The staff was polite and helpful. However, the room could have been cleaner. It was an okay stay overall.",
+          "review": "Decent room with average facilities. The staff was polite and helpful. However, the room could have been cleaner. It was an okay stay overall.",
           "date": "Date of stay: 2021-09-10",
           "verified": true
         },
         {
           "reviewerName": "Olivia Wilson",
           "rating": 4,
-          "review": "Enjoyed my stay at the hotel. The room was comfortable and the staff was friendly.",
+          "review": "Enjoyed my stay at the room. The room was comfortable and the staff was friendly.",
           "date": "Date of stay: 2021-10-15",
           "verified": false
         },
         {
           "reviewerName": "Ethan Davis",
           "rating": 4,
-          "review": "Fantastic hotel with great amenities. The staff was attentive and helpful.",
+          "review": "Fantastic room with great amenities. The staff was attentive and helpful.",
           "date": "Date of stay: 2021-11-20",
           "verified": true
         },
         {
           "reviewerName": "Ava Smith",
           "rating": 2,
-          "review": "Not satisfied with the hotel. The room was small and the service was poor.",
+          "review": "Not satisfied with the room. The room was small and the service was poor.",
           "date": "Date of stay: 2021-12-05",
           "verified": false
         },
         {
           "reviewerName": "Mia Johnson",
           "rating": 4,
-          "review": "Had a pleasant stay at the hotel. The location was convenient and the staff was friendly.",
+          "review": "Had a pleasant stay at the room. The location was convenient and the staff was friendly.",
           "date": "Date of stay: 2022-01-10",
           "verified": true
         },
         {
           "reviewerName": "Noah Wilson",
           "rating": 3,
-          "review": "Average hotel with decent facilities. The staff was helpful.",
+          "review": "Average room with decent facilities. The staff was helpful.",
           "date": "Date of stay: 2022-02-15",
           "verified": false
         },
         {
           "reviewerName": "Liam Davis",
           "rating": 4,
-          "review": "Outstanding hotel with top-notch service. The rooms were luxurious and comfortable.",
+          "review": "Outstanding room with top-notch service. The rooms were luxurious and comfortable.",
           "date": "Date of stay: 2022-03-20",
           "verified": true
         }
@@ -147,10 +147,10 @@
     "images": [
       {
         "imageUrl": "/images/hotels/465660377/465660377.jpg",
-        "accessibleText": "Courtyard by Marriott Pune"
+        "accessibleText": "Courtyard"
       }
     ],
-    "title": "Courtyard by Marriott Pune Hinjewadi",
+    "title": "Courtyard by Marriott Hinjewadi",
     "subtitle": "500 meters from the Rajiv Gandhi Infotech Park",
     "benefits": [
       "Free cancellation",
@@ -167,10 +167,10 @@
     "images": [
       {
         "imageUrl": "/images/hotels/469186143/469186143.jpg",
-        "accessibleText": "The Westin Pune Koregaon Park"
+        "accessibleText": "The Westin Koregaon Park"
       }
     ],
-    "title": "The Westin Pune Koregaon Park",
+    "title": "The Westin Koregaon Park",
     "subtitle": "5.4 km from centre",
     "benefits": [
       "Free cancellation",
@@ -186,10 +186,10 @@
     "images": [
       {
         "imageUrl": "/images/hotels/252004905/252004905.jpg",
-        "accessibleText": "Novotel Pune Viman Nagar Road"
+        "accessibleText": "Novotel Viman Nagar"
       }
     ],
-    "title": "Novotel Pune Viman Nagar Road",
+    "title": "Novotel Viman Nagar ",
     "subtitle": "Weikfield IT City Infopark | 7.1 km from centre",
     "benefits": [
       "Pets allowed",
@@ -206,11 +206,11 @@
     "images": [
       {
         "imageUrl": "/images/hotels/54360345/54360345.jpg",
-        "accessibleText": "Vivanta Pune"
+        "accessibleText": "Vivanta"
       }
     ],
-    "title": "Vivanta Pune",
-    "subtitle": "Xion Complex, | 14.2 km from centre",
+    "title": "Vivanta",
+    "subtitle": "Xion Complex",
     "benefits": [
       "Pets allowed",
       "Free wifi",
@@ -267,10 +267,10 @@
     "images": [
       {
         "imageUrl": "/images/hotels/503567645/503567645.jpg",
-        "accessibleText": "Aurika - Luxury by Lemon Tree Hotels"
+        "accessibleText": "Aurika - Luxury by Lemon Tree "
       }
     ],
-    "title": "Aurika - Luxury by Lemon Tree Hotels",
+    "title": "Aurika - Luxury by Lemon Tree",
     "subtitle": "5.1 km from Phoenix Market City Mall, Aurika",
     "benefits": [
       "Outdoor swimming pool",
@@ -288,10 +288,10 @@
     "images": [
       {
         "imageUrl": "/images/hotels/472036509/472036509.jpg",
-        "accessibleText": "Four Seasons Hotel Mumbai"
+        "accessibleText": "Four Seasons "
       }
     ],
-    "title": "Four Seasons Hotel Mumbai",
+    "title": "Four Seasons",
     "subtitle": "In the heart of Worli, the business hub of India’s largest city",
     "benefits": [
       "Kitchen",
@@ -312,7 +312,7 @@
         "accessibleText": "Treebo Trend New Light Suites"
       }
     ],
-    "title": "Treebo Trend New Light Suites",
+    "title": "Treebo Trend New Light",
     "subtitle": "6.2 km from The Heritage Centre & Aerospace Museum",
     "benefits": [
       "Non-smoking rooms",
@@ -329,11 +329,11 @@
     "images": [
       {
         "imageUrl": "/images/hotels/513923904/513923904.jpg",
-        "accessibleText": "Renaissance Bengaluru Race Course Hotel"
+        "accessibleText": "Renaissance Bengaluru Race Course"
       }
     ],
-    "title": "Renaissance Bengaluru Race Course Hotel",
-    "subtitle": "Located in the heart of Bengaluru Renaissance Bengaluru Race Course Hotel",
+    "title": "Renaissance Race Course ",
+    "subtitle": "Located in the heart of Renaissance Race Course",
     "benefits": [
       "Outdoor swimming poo",
       "Spa and wellness centre",
